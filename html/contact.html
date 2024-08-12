@@ -33,6 +33,31 @@
             <figcaption>Little Taco Shop Tacos</figcaption>
         </figure>
     </header>
+    <main>
+        <article id="contact">
+            <h2>Our Contact Form</h2>
+            <form action="http://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" autofocus >
+                    </p>
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="your email" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="message">Message: </label>
+                        <br>
+                        <textarea name="message" id="message" placeholder="Type your message here" rows="10" cols="30"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </article>
+    </main>
     <footer>
         <p>Copyright &copy; The Little Taco Shop</p>
     </footer>
